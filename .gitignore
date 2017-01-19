@@ -1,4 +1,9 @@
+# Ignorefile for ADF/Oracle Fusion projects
+# ignore CIL-files
 *.class
+
+# BlueJ files
+*.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -7,6 +12,14 @@
 *.jar
 *.war
 *.ear
+
+# object files of ADF project
+*.jdb
+*.lck
+*.cdi
+*.sso
+*.AMS
+
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
